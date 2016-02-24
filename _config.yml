@@ -1,0 +1,22 @@
+markdown: rdiscount
+permalink: /:categories/:title.html
+url: 
+lsi: false
+highlighter: true
+safe: true
+auto: false 
+
+paginate: 8
+paginate_path: "page:num"
+
+# presonal config
+domain: zoe1874.github.io/
+title: 阿wing's Blog
+description: 前端
+author: 阿wing
+github: 阿wing
+
+config:
+  js_dir:
+  img_dir:
+  css_dir:
