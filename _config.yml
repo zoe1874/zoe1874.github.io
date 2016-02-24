@@ -1,18 +1,19 @@
-markdown: rdiscount
-permalink: /:categories/:title.html
+markdown: redcarpet  #markdown解释器
+permalink: /:categories/:title.html  #博文的固定链接
 url: 
 lsi: false
 highlighter: true
 safe: true
 auto: false 
 
-paginate: 8
+paginate: 8 #分页时每页博文数量
 paginate_path: "page:num"
 
 # presonal config
+#自定义常量
 domain: zoe1874.github.io/
 title: 阿wing's Blog
-description: 前端
+description: Blog List
 author: 阿wing
 github: 阿wing
 
