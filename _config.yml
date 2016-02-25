@@ -1,4 +1,4 @@
-markdown: redcarpet  #markdown解释器
+#markdown: kramdown  #markdown解释器
 permalink: /:categories/:title.html  #博文的固定链接
 url: 
 lsi: false
