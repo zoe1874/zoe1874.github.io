@@ -2,7 +2,7 @@ markdown: kramdown  #markdown解释器
 permalink: /:categories/:title.html  #博文的固定链接
 url: 
 lsi: false
-highlighter: true
+highlighter: rouge
 safe: true
 auto: false 
 
