@@ -1,10 +1,13 @@
+
+gems: [jekyll-paginate]
+
 markdown: kramdown  #markdown解释器
 permalink: /:categories/:title.html  #博文的固定链接
 url: 
 lsi: false
 highlighter: rouge
 safe: true
-auto: false 
+auto: false
 
 paginate: 8 #分页时每页博文数量
 paginate_path: "page:num"

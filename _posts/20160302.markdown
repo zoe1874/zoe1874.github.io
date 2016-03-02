@@ -1,7 +1,11 @@
 ---
-layout: default
-title: "响应式设计"
+layout: post
+category: "前端"
+title:  "响应式设计"
+tags: [css]
+summary: "响应式网页设计"
 ---
+
 ###自适应网页设计
 
 Responsive Web Design:指可以自动识别屏幕宽度、并做出相应调整的网页设计。一个自适应布局可以被看作是响应式布局的一个更加廉价的替代品
@@ -26,4 +30,4 @@ Responsive Web Design:指可以自动识别屏幕宽度、并做出相应调整�
 
 * [http://www.w3cplus.com/css/viewports.html](http://www.w3cplus.com/css/viewports.html)
 
-*[https://www.zhihu.com/topic/19686500/top-answers](https://www.zhihu.com/topic/19686500/top-answers)
+* [https://www.zhihu.com/topic/19686500/top-answers](https://www.zhihu.com/topic/19686500/top-answers)
