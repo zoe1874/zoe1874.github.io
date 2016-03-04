@@ -1,13 +1,16 @@
-
-gems: [jekyll-paginate]
+#https://segmentfault.com/q/1010000004114686/a-1020000004115326
+#https://segmentfault.com/a/1190000000406017
+#gems: [jekyll-paginate]
+gems:
+- jekyll-paginate
 
 markdown: kramdown  #markdown解释器
-permalink: /:categories/:title.html  #博文的固定链接
+permalink: date  #博文的固定链接
 url: 
 lsi: false
 highlighter: rouge
 safe: true
-auto: false
+#auto: false
 
 paginate: 8 #分页时每页博文数量
 paginate_path: "page:num"
