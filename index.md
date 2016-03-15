@@ -2,14 +2,8 @@
 layout: default
 title: "首页：Home"
 ---
-<h1 class="page-header">
-  <small>
-    {{ site.description }}
-  </small>
-</h1>
-<!-- Loop output paged posts -->
-{% for post in paginator.posts %}
-{{ post.title }}
+
+{% for post in site.posts %}
 <h2>
   <a href="{{ post.url }}">
     {{ post.title }}
@@ -21,8 +15,11 @@ title: "首页：Home"
 </h2>
 <hr>
 {{ post.excerpt }}
-	<p> <a href="{{ post.url }}"><span >阅读全文 &raquo; </span></a></p>
-<hr>
+<p>
+    <a href="{{ post.url }}">
+      阅读全文
+    </a> 
+</p>
 {% endfor %}
 
 <!-- Pager indicator -->
