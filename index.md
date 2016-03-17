@@ -1,25 +1,27 @@
 ---
 layout: default
-title: "首页：Home"
+title: "首页"
+active: "index"
 ---
-
 {% for post in site.posts %}
-<h2>
-  <a href="{{ post.url }}">
-    {{ post.title }}
-  </a> 
-  <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
-	{{ post.date | date_to_string }}
+<li>
+  <div class="date"><span>{{ post.date | date: "%d" }}</span>{{ post.date | date: "%-m" }}月</div>
+  <div class="collections-info">
+      <h5>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+      </h5>
+      <div class="description">{{ post.excerpt }}</div>
+      <p>
+          <a class="blue-link" href="{{ post.url }}">阅读全文...</a>
+          · 评论
+          <span class="tag">
+          <i class="fa fa-tags"></i>&nbsp;
+              <a class="" href="/tags/1951/collections">连载</a>、
+              <a class="" href="/tags/17/collections">故事</a>
+          </span>
+      </p>
   </div>
-</h2>
-<hr>
-{{ post.excerpt }}
-<p>
-    <a href="{{ post.url }}">
-      阅读全文
-    </a> 
-</p>
+</li>
 {% endfor %}
 
 <!-- Pager indicator -->

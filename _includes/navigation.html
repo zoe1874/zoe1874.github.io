@@ -1,27 +1,11 @@
-          <ul class="nav navbar-nav nav_right">
-            <li>
-              <a href="/index.html">
-                首 页
-              </a>
-            </li>
-            <li>
-              <a href="/categories.html">
-                分 类
-              </a>
-            </li>
-            <li>
-              <a href="/tags.html">
-                标 签
-              </a>
-            </li>
-            <li>
-              <a href="/archives.html">
-                归 档
-              </a>
-            </li>
-            <li>
-              <a href="/faqs.html">
-                备 忘
-              </a>
-            </li>
-          </ul>
+<div class="page-title">
+    <ul class="clearfix collections-nav navigation" data-container="#list-container" data-loader=".loader-tiny">
+        <li class="active"><a data-pjax="true" href="/index.html">首页</a></li>
+        <li class=""><a data-pjax="true" href="/tags.html">标签</a></li>
+        <li class=""><a data-pjax="true" href="/archives.html">归档</a></li>
+        <li class=""><a data-pjax="true" href="/faqs.html">备忘</a></li>
+        <li class="search">
+            {% include search.html %}
+        </li>
+    </ul>
+</div>
