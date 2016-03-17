@@ -2,6 +2,5 @@
 ================
 
 ####地址 http://zoe1874.github.io
-####原模板地址 https://github.com/panxw/panxw.github.com
 
 
