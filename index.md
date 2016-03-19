@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "首页"
-active: "index"
+index: active
 ---
 {% for post in site.posts %}
 <li>
@@ -10,14 +10,13 @@ active: "index"
       <h5>
           <a href="{{ post.url }}">{{ post.title }}</a>
       </h5>
-      <div class="description">{{ post.excerpt }}</div>
+      <div class="description">{{ post.summary }}</div>
       <p>
           <a class="blue-link" href="{{ post.url }}">阅读全文...</a>
           · 评论
           <span class="tag">
           <i class="fa fa-tags"></i>&nbsp;
-              <a class="" href="/tags/1951/collections">连载</a>、
-              <a class="" href="/tags/17/collections">故事</a>
+              <a class="" href="/tags/1951/collections">{{post.tags}}</a>
           </span>
       </p>
   </div>

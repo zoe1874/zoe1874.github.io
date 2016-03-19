@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "标签"
-active: tags
+tags: active
 ---
 <div>
 {% for tag in site.tags %} 
@@ -18,11 +18,6 @@ active: tags
                   <p>
                       <a class="blue-link" href="{{ post.url }}">阅读全文...</a>
                       · 评论
-                      <span class="tag">
-                      <i class="fa fa-tags"></i>&nbsp;
-                          <a class="" href="/tags/1951/collections">连载</a>、
-                          <a class="" href="/tags/17/collections">故事</a>
-                      </span>
                   </p>
               </div>
             </li>

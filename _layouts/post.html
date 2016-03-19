@@ -5,8 +5,8 @@ layout: default
 <!-- Title -->
 <h2>
   {{ page.title }}
-  <div class="post-date"><a href="https://github.com/{{ site.github }}.github.com/edit/master/{{ page.path }}" target="_blank">纠错</a>&nbsp;&nbsp;
-	<span class="glyphicon glyphicon-time"></span>
+  <div class="post-date">
+    <a href="https://github.com/{{ site.github }}.github.com/edit/master/{{ page.path }}" target="_blank">纠错</a>
 	{{ page.date | date_to_string }}
   </div>
 </h2>
@@ -31,9 +31,4 @@ layout: default
     </a>
   </span>
   {%endif%}
-</div>
-<hr>
-<!-- Blog Comments -->
-<div class="media">
-  {% include comment.html %}
 </div>

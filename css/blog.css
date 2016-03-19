@@ -245,6 +245,7 @@ h5 {
 	padding-right: 120px;
 	margin-bottom: 3px;
 	font-size: 12px;
+	color:#999
 }
 .blue-link {
 	color: #4094c7;
@@ -284,6 +285,21 @@ footer{
 	font-weight: normal;
 	padding: 10px 0;
 }
+.unstyled li{
+	border-bottom: none;
+	padding: 0;
+	line-height: 22px;
+}
+.unstyled h4{
+	font-size: 12px;
+	margin: 5px 0;
+}
 
-
-
+.post-date{
+	float: right;
+	font-size: 12px;
+	color: #666;
+}
+hr{
+	margin-bottom: 20px;
+}

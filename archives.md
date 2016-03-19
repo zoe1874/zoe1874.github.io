@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "归档"
-active: "archives"
+archives: active
 ---
 <ul class="list-unstyled">
      {% for post in site.posts limit:100 %} 
@@ -23,8 +23,7 @@ active: "archives"
                   ·  评论
                   <span class="tag">
                   <i class="fa fa-tags"></i>&nbsp;
-                      <a class="" href="/tags/1951/collections">连载</a>、
-                      <a class="" href="/tags/17/collections">故事</a>
+                      <a class="" href="/tags/1951/collections">{{post.tags}}</a>
                   </span>
               </p>
           </div>

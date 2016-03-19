@@ -1,10 +1,11 @@
 <div class="page-title">
     <ul class="clearfix collections-nav navigation" data-container="#list-container" data-loader=".loader-tiny">
-        <li class="active"><a data-pjax="true" href="/index.html">首页</a></li>
-        <li class=""><a data-pjax="true" href="/tags.html">标签</a></li>
-        <li class=""><a data-pjax="true" href="/archives.html">归档</a></li>
-        <li class=""><a data-pjax="true" href="/faqs.html">备忘</a></li>
+        <li class="{{ page.index }}"><a data-pjax="true" href="/index.html">首页</a></li>
+        <li class="{{ page.tags }}"><a data-pjax="true" href="/tags.html">标签</a></li>
+        <li class="{{ page.archives }}"><a data-pjax="true" href="/archives.html">归档</a></li>
+        <li class="{{ page.faqs }}"><a data-pjax="true" href="/faqs.html">备忘</a></li>
         <li class="search">
+            {{ page.active }}
             {% include search.html %}
         </li>
     </ul>
