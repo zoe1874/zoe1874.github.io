@@ -226,6 +226,7 @@ input.search-query {
 	float: left;
 	color: #fff;
 	text-align: center;
+    line-height: 18px;
 }
 .date span{
 	display: block;
@@ -256,7 +257,7 @@ h5 {
 	line-height: 20px;
 }
 .collections-list .tag i {
-	margin-right: 2px;
+	margin-right: -5px;
 }
 .fa {
 	display: inline-block;
@@ -289,6 +290,7 @@ footer{
 	border-bottom: none;
 	padding: 0;
 	line-height: 22px;
+    font-size: 12px;
 }
 .unstyled h4{
 	font-size: 12px;
@@ -302,4 +304,51 @@ footer{
 }
 hr{
 	margin-bottom: 20px;
+}
+@media only screen and (max-width: 720px),only screen and (-webkit-min-device-pixel-ratio:3) {
+    a,img {
+        -webkit-touch-callout:none
+    }
+
+    html,body {
+        -webkit-text-size-adjust: 100%;
+        user-select: none;
+        -webkit-overflow-scrolling: touch
+    }
+
+    a:hover,a:visited {
+        text-decoration: none
+    }
+
+    a,button,body {
+        -webkit-tap-highlight-color: transparent
+    }
+
+    html {
+        font-size: 62.5%
+    }
+
+    body {
+        background-color: #fff;
+        font-family: 'Helvetica Neue',Helvetica,Tahoma,Arial,sans-serif;
+        color: #555;
+        font-size: 1.4rem;
+        font-weight: 400;
+        word-break: break-all
+    }
+     .search, .left-aside {
+        display: none !important;
+    }   
+    .row-fluid .offset3{
+        margin-left: 0;
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+    .collections .collections-list{
+        margin: 0;
+    }
+    .collections-list .description{
+        padding: 0
+    }
 }
