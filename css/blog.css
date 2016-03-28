@@ -286,15 +286,22 @@ footer{
 	font-weight: normal;
 	padding: 10px 0;
 }
+.unstyled ol{
+    list-style: inside decimal;
+}
 .unstyled li{
 	border-bottom: none;
 	padding: 0;
 	line-height: 22px;
     font-size: 12px;
+    
+}
+.unstyled p{
+    line-height: 24px;
 }
 .unstyled h4{
 	font-size: 12px;
-	margin: 5px 0;
+	margin: 10px 0 5px 0;
 }
 
 .post-date{
