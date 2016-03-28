@@ -19,9 +19,9 @@ paginate_path: "page:num"
 #自定义常量
 domain: zoe1874.github.io/
 title: 阿wing's Blog
-description: Blog List
+description: 随便说说
 author: 阿wing
-github: 阿wing
+github: zoe1874
 
 config:
   js_dir:
